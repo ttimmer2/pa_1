@@ -1,0 +1,26 @@
+2023-09-19:20:35:13,416 INFO     [Programming_Assignment_1.py:155] running for brute_force with list of length 10 and m equal to 10
+2023-09-19:20:35:13,416 INFO     [Programming_Assignment_1.py:159] Found minima in 0.0 seconds.
+2023-09-19:20:35:13,416 INFO     [Programming_Assignment_1.py:155] running for brute_force with list of length 100 and m equal to 10
+2023-09-19:20:35:13,425 INFO     [Programming_Assignment_1.py:159] Found minima in 0.008301973342895508 seconds.
+2023-09-19:20:35:13,425 INFO     [Programming_Assignment_1.py:155] running for brute_force with list of length 1000 and m equal to 10
+2023-09-19:20:35:13,886 INFO     [Programming_Assignment_1.py:159] Found minima in 0.4567437171936035 seconds.
+2023-09-19:20:35:13,886 INFO     [Programming_Assignment_1.py:155] running for brute_force with list of length 10000 and m equal to 10
+2023-09-19:20:36:18,792 INFO     [Programming_Assignment_1.py:159] Found minima in 64.90578150749207 seconds.
+2023-09-19:20:36:18,792 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 10 and m equal to 10
+2023-09-19:20:36:18,792 INFO     [Programming_Assignment_1.py:159] Found minima in 0.0 seconds.
+2023-09-19:20:36:18,792 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 100 and m equal to 10
+2023-09-19:20:36:18,796 INFO     [Programming_Assignment_1.py:159] Found minima in 0.004109621047973633 seconds.
+2023-09-19:20:36:18,796 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 1000 and m equal to 10
+2023-09-19:20:36:18,805 INFO     [Programming_Assignment_1.py:159] Found minima in 0.00852513313293457 seconds.
+2023-09-19:20:36:18,805 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 10000 and m equal to 10
+2023-09-19:20:36:18,882 INFO     [Programming_Assignment_1.py:159] Found minima in 0.07664752006530762 seconds.
+2023-09-19:20:36:18,882 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 100000 and m equal to 10
+2023-09-19:20:36:19,653 INFO     [Programming_Assignment_1.py:159] Found minima in 0.7710464000701904 seconds.
+2023-09-19:20:36:19,653 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 10 and m equal to 10
+2023-09-19:20:36:19,653 INFO     [Programming_Assignment_1.py:159] Found minima in 0.0 seconds.
+2023-09-19:20:36:19,653 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 100 and m equal to 10
+2023-09-19:20:36:19,661 INFO     [Programming_Assignment_1.py:159] Found minima in 0.008021116256713867 seconds.
+2023-09-19:20:36:19,661 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 1000 and m equal to 10
+2023-09-19:20:36:20,115 INFO     [Programming_Assignment_1.py:159] Found minima in 0.4548830986022949 seconds.
+2023-09-19:20:36:20,115 INFO     [Programming_Assignment_1.py:155] running for iterative_minimum_manhattan_distance with list of length 10000 and m equal to 10
+2023-09-19:20:37:23,615 INFO     [Programming_Assignment_1.py:159] Found minima in 63.49835753440857 seconds.

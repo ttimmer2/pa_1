@@ -1,0 +1,39 @@
+2023-09-18:22:20:01,436 INFO     [programming_assignment_1.py:53] Calculating 5 minimum manhattan distances for set [(1, 199999), (1, 22), (1, -123981), (0, 0), (0, 1), (-11, 3), (1, 4), (91283, 12), (44, 199999)].
+2023-09-18:22:20:01,436 DEBUG    [programming_assignment_1.py:68] Sorting the points array
+2023-09-18:22:20:01,436 DEBUG    [programming_assignment_1.py:72] Initialized minimum_distances array.
+2023-09-18:22:20:01,436 DEBUG    [programming_assignment_1.py:75] Iterating through points.
+2023-09-18:22:20:01,436 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (-11, 3) and (0, 0)
+2023-09-18:22:20:01,442 DEBUG    [programming_assignment_1.py:86] 14 is less than (inf, (0, 0), (0, 0))
+2023-09-18:22:20:01,442 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(14, (-11, 3), (0, 0)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0))]
+2023-09-18:22:20:01,442 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (0, 0) and (0, 1)
+2023-09-18:22:20:01,442 DEBUG    [programming_assignment_1.py:86] 1 is less than (inf, (0, 0), (0, 0))
+2023-09-18:22:20:01,442 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(1, (0, 0), (0, 1)), (14, (-11, 3), (0, 0)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0))]
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (0, 1) and (1, 199999)
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:86] 199999 is less than (inf, (0, 0), (0, 0))
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(1, (0, 0), (0, 1)), (14, (-11, 3), (0, 0)), (199999, (0, 1), (1, 199999)), (inf, (0, 0), (0, 0)), (inf, (0, 0), (0, 0))]
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (1, 199999) and (1, 22)
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:86] 199977 is less than (inf, (0, 0), (0, 0))
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(1, (0, 0), (0, 1)), (14, (-11, 3), (0, 0)), (199977, (1, 199999), (1, 22)), (199999, (0, 1), (1, 199999)), (inf, (0, 0), (0, 0))]
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (1, 22) and (1, -123981)
+2023-09-18:22:20:01,443 DEBUG    [programming_assignment_1.py:86] 124003 is less than (inf, (0, 0), (0, 0))
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(1, (0, 0), (0, 1)), (14, (-11, 3), (0, 0)), (124003, (1, 22), (1, -123981)), (199977, (1, 199999), (1, 22)), (199999, (0, 1), (1, 199999))]
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (1, -123981) and (1, 4)
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:86] 123985 is less than (199999, (0, 1), (1, 199999))
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:89] minimum distances updated to [(1, (0, 0), (0, 1)), (14, (-11, 3), (0, 0)), (123985, (1, -123981), (1, 4)), (124003, (1, 22), (1, -123981)), (199977, (1, 199999), (1, 22))]
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (1, 4) and (44, 199999)
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:83] Calculating the manhattan distance of (44, 199999) and (91283, 12)
+2023-09-18:22:20:01,444 DEBUG    [programming_assignment_1.py:92] The largest minimum is 199977. Iterating through list again.
+2023-09-18:22:20:01,444 INFO     [programming_assignment_1.py:126] Calling brute_force on points [(-11, 3), (0, 0), (0, 1), (1, 199999), (1, 22), (1, -123981), (1, 4), (44, 199999), (91283, 12)] for 9 minima
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:19] Function 'brute_force' executed in 0.00102305412292480469s
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:103] Calculating minima with brute force for indices 0 through 10.
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,445 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:105] Comparing minima to minima in minimum distances.
+2023-09-18:22:20:01,446 INFO     [programming_assignment_1.py:110] [(-11, 3), (0, 0), (0, 1), (1, 199999), (1, 22), (1, -123981), (1, 4), (44, 199999), (91283, 12)] has minimum distances of [(1, (0, 0), (0, 1)), (4, (0, 1), (1, 4)), (5, (0, 0), (1, 4)), (13, (-11, 3), (0, 1)), (13, (-11, 3), (1, 4))]
+2023-09-18:22:20:01,446 DEBUG    [programming_assignment_1.py:19] Function 'iterative_minimum_manhattan_distance' executed in 0.00967383384704589844s
